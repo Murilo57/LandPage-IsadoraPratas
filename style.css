@@ -14,7 +14,7 @@
 }
 
 .light {
-  --text-color: black;
+  --text-color: white;
   --bg-url: url(./assets/Background.png);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.5);
@@ -30,7 +30,10 @@ body {
   background-size: cover;
   */
   /*background: color image repeat position/size*/
-  background: var(--bg-url) no-repeat top center/cover;
+
+  /* background: var(--bg-url) no-repeat top center/cover; */
+
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 body * {
